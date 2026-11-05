@@ -85,16 +85,9 @@ namespace CursoWindowsForms
             Name = "Frm_ValidaCPF";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Validação CPF";
-            Load += Frm_ValidaCPF_Load;
             ResumeLayout(false);
             PerformLayout();
         }
-
-        private void Frm_ValidaCPF_Load(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
         #endregion
 
         private MaskedTextBox Msk_CPF;

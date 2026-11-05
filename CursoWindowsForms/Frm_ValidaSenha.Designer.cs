@@ -70,6 +70,7 @@
             Btn_Valida.TabIndex = 3;
             Btn_Valida.Text = "Valida";
             Btn_Valida.UseVisualStyleBackColor = true;
+            Btn_Valida.Click += Btn_Valida_Click;
             // 
             // Frm_ValidaSenha
             // 
@@ -84,7 +85,6 @@
             Name = "Frm_ValidaSenha";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Validação de Senha";
-            Load += Frm_ValidaSenha_Load;
             ResumeLayout(false);
             PerformLayout();
         }

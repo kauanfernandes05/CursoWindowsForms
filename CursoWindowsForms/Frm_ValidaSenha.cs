@@ -96,11 +96,6 @@ namespace CursoWindowsForms
             }
         }
 
-        private void Frm_ValidaSenha_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Txt_Senha_KeyDown(object sender, KeyEventArgs e)
         {
             ChecaForcaSenha verifica = new ChecaForcaSenha();
@@ -123,6 +118,12 @@ namespace CursoWindowsForms
         }
 
         private void Btn_Reset_Click(object sender, EventArgs e)
+        {
+            Txt_Senha.Text = "";
+            Lbl_Resultado.Text = "";
+        }
+
+        private void Btn_Valida_Click(object sender, EventArgs e)
         {
 
         }

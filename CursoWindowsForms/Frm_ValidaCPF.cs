@@ -16,9 +16,6 @@ namespace CursoWindowsForms
         {
             InitializeComponent();
         }
-
-        
-
         private void Btn_Reset_Click(object sender, EventArgs e)
         {
             Lbl_Resultado.Text = "";

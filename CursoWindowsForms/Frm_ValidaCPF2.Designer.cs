@@ -73,16 +73,9 @@
             Name = "Frm_ValidaCPF2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Validação CPF";
-            Load += Frm_ValidaCPF2_Load;
             ResumeLayout(false);
             PerformLayout();
         }
-
-        private void Frm_ValidaCPF2_Load(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
         #endregion
 
         private MaskedTextBox Msk_CPF;
